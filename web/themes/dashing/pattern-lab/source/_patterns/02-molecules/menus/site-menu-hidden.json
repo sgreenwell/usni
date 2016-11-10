@@ -1,0 +1,50 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "nav",
+        "nav-tabs",
+        "nav-justified",
+        "site-menu-tabs"
+      ]
+    }
+  },
+  "items": [
+    {
+      "title": "Current Issue",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Popular Content",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Essay Contests",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Magazine Archive",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    }
+  ]
+}

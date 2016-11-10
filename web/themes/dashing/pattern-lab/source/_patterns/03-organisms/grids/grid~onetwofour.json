@@ -1,0 +1,76 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "grid-1x2x4",
+        "grid-hide-small"
+      ]
+    }
+  },
+  "items": [
+    {
+      "content": "molecules-article-teaser-imagetop-noborder",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-imagetop-noborder",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-imagetop-noborder",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-imagetop-noborder",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-imagetop-noborder",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-imagetop-noborder",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-imagetop-noborder",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-imagetop-noborder",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    }
+  ]
+}

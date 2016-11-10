@@ -1,0 +1,79 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "grid-1x2x4"
+      ]
+    }
+  },
+  "grid_title":true,
+  "grid_title_text": "Magazine Section",
+  "grid_button":false,
+  "grid_button_text": "View All",
+  "items": [
+    {
+      "content": "molecules-article-teaser-noimage",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-noimage",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-noimage",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-noimage",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-noimage",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-noimage",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-noimage",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-noimage",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    }
+  ]
+}

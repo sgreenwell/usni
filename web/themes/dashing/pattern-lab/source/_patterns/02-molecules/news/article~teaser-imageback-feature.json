@@ -1,0 +1,24 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "card",
+        "card-article",
+        "card-featured"
+      ]
+    }
+  },
+  "title": "Article Title That is longer than the rest for testing",
+  "card_image_top": false,
+  "card_text": true,
+  "card_links": false,
+  "card_buttons": false,
+  "section_category": true,
+  "section_category_text": "Cover",
+  "card_category": true,
+  "card_category_text": "Naval Fleets",
+  "card_author": true,
+  "card_author_text": "Cpt. John Doe",
+  "card_image_background": true,
+  "image_medium": "../../../../img/fullimage1.jpg"
+}

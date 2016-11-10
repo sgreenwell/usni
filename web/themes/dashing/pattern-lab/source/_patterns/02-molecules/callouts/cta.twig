@@ -1,0 +1,88 @@
+{#
+/**
+ * @file
+ * Bootstrap v4 Card.
+ *
+ * @see http://v4-alpha.getbootstrap.com/components/card/
+ */
+#}
+<{{ element ?: "div" }}{{ attributes.addClass(classes) }}>
+
+{% if card_links == false %}
+    <a href="{{ url }}" class="card-link divclick">
+{% endif %}
+
+
+{% if card_image_top %}
+    {% block card_image_top %}
+        <img class="card-img-top" src="{{ image_medium }}" />
+    {% endblock %}
+{% endif %}
+
+
+
+{% if card_image_background == true %}
+<div class="card-block card-block-image-background" style="background: url('{{ image_medium }}') no-repeat center; background-size: cover">
+    {% else %}
+    <div class="card-block">
+        {% endif %}
+
+        {% block card_title %}
+            <h4 class="card-title">
+                {% if card_links == false %}
+                    {{ title }}
+                {% else %}
+                    <a href="{{ url }}" rel="bookmark">{{ title }}</a>
+                {% endif %}
+            </h4>
+
+        {% endblock %}
+
+        {% if card_text %}
+            {% block card_text %}
+                <p class="card-text">{{ snippet }}</p>
+            {% endblock %}
+        {% endif %}
+
+        {% if card_links %}
+            {% block card_links %}
+                <p class="card-text">
+                    <a href="{{ url }}" class="card-link">{{ read_more }}</a>
+                </p>
+            {% endblock %}
+        {% endif %}
+
+        {% if card_buttons %}
+            {% block card_buttons %}
+                <p class="card-text">
+                    <span href="{{ url }}" class="btn btn-primary">{{ read_more }}</span>
+                </p>
+            {% endblock %}
+        {% endif %}
+
+
+        {% if card_category %}
+            <div class="card-category small">
+                {{ card_category_text }}
+            </div>
+        {% endif %}
+    </div>
+
+
+    {% if card_links == false %}
+        </a>
+{% endif %}
+
+</{{ element ?: "div" }}>
+
+{# @todo remove this #}
+<style>
+    .card.article {
+        max-width: none;
+
+    }
+    .card.card-featured .card-block{
+        padding-top: 100px;
+    }
+</style>
+

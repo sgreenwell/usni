@@ -1,0 +1,68 @@
+{#
+/**
+ * @file
+ * Bootstrap v4 Card. EXTENDED to ARticle
+ *
+ * @see http://v4-alpha.getbootstrap.com/components/card/
+ */
+#}
+<{{ element ?: "div" }}{{ attributes.addClass(classes) }}>
+
+
+
+<a href="#"><img class="card-img-top" src="{{ image_book }}" /></a>
+
+
+
+
+<div class="card-block">
+    {% if card_type_book %}
+        {% block card_type_book %}
+            <span class="card-type">Thriller</span>
+        {% endblock %}
+    {% endif %}
+    <div class="itemInfo">
+        {% block card_title %}
+            <h4 class="card-title">Billy Mitchells War with the Navy</h4>
+        {% endblock %}
+        {% if card_title_sub %}
+            {% block card_title_sub %}
+                <div class="card-subtitle">The Interwar Rivalry Over Air Power</div>
+            {% endblock %}
+        {% endif %}
+        {% if card_author %}
+            {% block card_author %}
+                <div class="card-author"><a href="#">Thomas Wildenberg</a></div>
+            {% endblock %}
+        {% endif %}
+        {% if card_text %}
+            {% block card_text %}
+                <p class="card-text">{{ snippet }}</p>
+            {% endblock %}
+        {% endif %}
+
+        {% if card_binding %}
+            {% block card_binding %}
+                <div class="bookBinding">
+                    <div class="available-bindings">Available in Hardback</div>
+                </div>
+            {% endblock %}
+        {% endif %}
+
+
+        {% if card_price %}
+            {% block card_price %}
+                <div class="memPrice">
+                    <span>List Price: As low as </span>
+                    <span class="showPrice">$34.95</span>
+                </div>
+                <div class="anonPrice">
+                    <span> Member Price: As low as </span><span class="showPrice">$27.96</span>
+                </div>
+            {% endblock %}
+        {% endif %}
+    </div>
+</div>
+
+</{{ element ?: "div" }}>
+

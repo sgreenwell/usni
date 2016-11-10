@@ -1,0 +1,27 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "grid-1x2x2"
+      ]
+    }
+  },
+  "items": [
+    {
+      "content": "molecules-article-teaser-imagetop",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-article-teaser-imagetop",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    }
+  ]
+}

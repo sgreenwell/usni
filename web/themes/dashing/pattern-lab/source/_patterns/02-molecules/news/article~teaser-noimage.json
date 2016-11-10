@@ -1,0 +1,10 @@
+{
+  "title": "Article Title",
+  "card_image_top": false,
+  "card_text": true,
+  "card_links": false,
+  "card_buttons": true,
+  "card_category_text": "World War II",
+  "card_author_text": "Cpt. John Doe",
+  "card_image_background": false
+}

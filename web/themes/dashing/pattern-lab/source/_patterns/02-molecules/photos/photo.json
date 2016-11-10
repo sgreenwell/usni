@@ -1,0 +1,13 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "photo",
+        "photo-article"
+      ]
+    }
+  },
+  "photo_credit": true,
+  "photo_credit_text": "Created Stock Photo Credit",
+  "photo_image": "http://placehold.it/1000x600"
+}

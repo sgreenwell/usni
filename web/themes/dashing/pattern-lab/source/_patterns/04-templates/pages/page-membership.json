@@ -1,0 +1,20 @@
+{
+  "header": {
+    "join()": [
+      "organisms-header",
+      "molecules-site-menu-hidden-membership"
+    ]
+  },
+  "featured": {
+    "join()": [
+      "organisms-featured-landing"
+    ]
+  },
+  "content": {
+    "join()": [
+      "molecules-adgroup-horizantal",
+      "organisms-pyramid-grid-articles"
+    ]
+  },
+  "sidebar": false
+}

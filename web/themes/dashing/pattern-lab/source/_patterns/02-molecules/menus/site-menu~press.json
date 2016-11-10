@@ -1,0 +1,67 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "nav",
+        "nav-tabs",
+        "nav-justified"
+      ]
+    }
+  },
+  "items": [
+    {
+      "title": "New Releases",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Best Sellers",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Reading Lists",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Education",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "About the Press",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Gift Items",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    }
+  ]
+}

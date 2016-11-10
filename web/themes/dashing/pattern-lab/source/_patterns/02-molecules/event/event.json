@@ -1,0 +1,23 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "card",
+        "card-event"
+      ]
+    }
+  },
+  "card_header": false,
+  "card_image_top": true,
+  "card_text": true,
+  "card_links": true,
+  "card_buttons": true,
+  "card_list": false,
+  "card_image_bottom": false,
+  "card_footer": false,
+  "card_event_type": "Conference Event",
+  "card_event_location": "Annapolis, Maryland",
+  "title": "West Conference 2017",
+  "image_medium": "../../../../img/fullimage1.jpg"
+
+}

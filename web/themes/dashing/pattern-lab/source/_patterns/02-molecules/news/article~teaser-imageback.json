@@ -1,0 +1,26 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "card",
+        "card-article"
+      ]
+    }
+  },
+  "title": "Article Title",
+  "card_image_top": false,
+  "card_text": false,
+  "card_links": false,
+  "card_buttons": false,
+
+  "card_category": false,
+  "card_category_text": "Naval Fleets",
+  "section_category": true,
+  "section_category_text": "Feature",
+  "card_author": true,
+  "card_author_text": "Cpt. John Doe",
+  "card_image_background": true,
+  "card_date": true,
+  "card_date_text": "October 2016",
+  "image_medium": "../../../../img/fullimage1.jpg"
+}

@@ -9,6 +9,7 @@ core: 8.x
 libraries:
   - dashing/core
   - dashing/bootstrap
+  - dashing/owl.carousel
 
 # For compatibility with Pattern Lab templates; this list must
 # always be the folders immediately under the `$sourceDir` patterns folder

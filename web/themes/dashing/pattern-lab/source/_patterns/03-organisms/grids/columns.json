@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "content": {
+        "join()": [
+          "molecules-article-teaser-imageback-feature"
+        ]
+      },
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": {
+        "join()": [
+          "molecules-article-teaser-imageback-feature"
+        ]
+      },
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": {
+        "join()": [
+          "molecules-article-teaser-imageback-feature"
+        ]
+      },
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": {
+        "join()": [
+          "molecules-article-teaser-imageback-feature"
+        ]
+      },
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    }
+  ],
+  "gridclass": "col-xs-12 col-sm-6 col-lg-3"
+}

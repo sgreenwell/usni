@@ -1,0 +1,17 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "featured-region",
+        "region"
+      ]
+    }
+  },
+  "content": {
+    "join()": [
+      "atoms-h1",
+      "molecules-site-menu"
+    ]
+  },
+  "fullwidth": false
+}

@@ -1,0 +1,47 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "grid-1x2x4"
+      ]
+    }
+  },
+  "grid_title":true,
+  "grid_title_text": "Featured Books",
+  "grid_button":true,
+  "grid_button_text": "View All",
+  "items": [
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{#
+/**
+ * @file
+ * page - Basic Page.
+ */
+#}
+
+
+<body>
+
+    {% block header %}
+        {{ header }}
+    {% endblock %}
+
+
+
+    {% block featured %}
+        {{ featured }}
+    {% endblock %}
+
+
+
+<div class="body-container-region">
+    <div class="container">
+        <div class="row">
+
+            {% if sidebar %}
+                <div class="col-xs-12 col-md-8 col-lg-9 body-region region">
+            {% else %}
+                <div class="col-xs-12 body-region region">
+            {% endif %}
+
+            {% block content %}
+                {{ content }}
+            {% endblock %}
+        </div>
+
+            {% if sidebar %}
+                <div class="col-md-4 col-lg-3 sidebar-region region fix-on-scroll">
+                    {% block sidebar %}
+                        {{ sidebar }}
+                    {% endblock %}
+                </div>
+            {% endif %}
+
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="callouts-region region">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h4>USNI Quick Links</h4>
+                    <ul class="quicklinks">
+                        <li><a href="#">About the USNI</a></li>
+                        <li><a href="#">Books & Press</a></li>
+                        <li><a href="#">Naval History Magazine</a></li>
+                        <li><a href="#">USNI News</a></li>
+                        <li><a href="#">Proceedings Magazine</a></li>
+                        <li><a href="#">Oral Histories</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">The Archives</a></li>
+                        <li><a href="#">Heritage Foundation</a></li>
+                        <li><a href="#">Photos & Historical Prints</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Join the Newsletter</h3>
+                    <p>Sign up to get updates about new releases and party invites.</p>
+                    <input type="search" />
+                    <p><a type="button" class="btn btn-default" href="#">Learn More</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-region region">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-image"><img src="../../../../logo-white.png" /></div>
+                    <p>Copyright &copy; 2017 U.S. Naval Institute</p>
+                    <p><a href="#">Privacy Policy</a>  |  <a href="#">Terms of Use</a>  |  <a href="#">Contact Us</a>  |  <a href="#">Advertise with us</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+

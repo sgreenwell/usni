@@ -1,0 +1,23 @@
+{
+  "header": {
+    "join()": [
+      "organisms-header"
+    ]
+  },
+  "featured": {
+    "join()": [
+      "organisms-featured"
+    ]
+  },
+  "content": {
+    "join()": [
+      "atoms-h1",
+      "atoms-content-body-mission"
+    ]
+  },
+  "sidebar": {
+    "join()": [
+      "molecules-adgroup"
+    ]
+  }
+}

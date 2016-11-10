@@ -1,0 +1,24 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "card",
+        "card-book",
+        "text-center"
+      ]
+    }
+  },
+  "card_type_book": true,
+  "card_title_sub": true,
+  "card_author": true,
+  "card_text": true,
+  "card_binding": true,
+  "card_price": true,
+
+
+  "card_event_type": "Conference Event",
+  "card_event_location": "Annapolis, Maryland",
+  "title": "West Conference 2017",
+  "image_book": "http://placehold.it/280x371"
+
+}

@@ -1,0 +1,72 @@
+{
+  "header": {
+    "join()": [
+      "organisms-header",
+      "molecules-site-menu-hidden"
+    ]
+  },
+  "featured": {
+    "join()": [
+      {
+        "include()": {
+          "pattern": "organisms-region-row",
+          "with": {
+            "attributes": {
+              "Attribute()": {
+                "class": [
+                  "featured-image"
+                ]
+              }
+            },
+            "content": {
+              "join()": [
+                {
+                  "include()": {
+                    "pattern": "molecules-photo",
+                    "with": {
+                      "attributes": {
+                        "Attribute()": {
+                          "class": [
+                            "photo",
+                            "photo-article",
+                            "photo-article-featured"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "fullwidth": false
+          }
+        }
+      }
+    ]
+  },
+  "content": {
+    "join()": [
+      {
+        "include()": {
+          "pattern": "atoms-h1",
+          "with": {
+            "attributes": {
+              "Attribute()": {
+                "class": [
+                  "h1",
+                  "page-title"
+                ]
+              }
+            },
+            "title": "Section Title"
+          }
+        }
+      }
+    ]
+  },
+  "sidebar": {
+    "join()": [
+      "molecules-adgroup-sidebar-html"
+    ]
+  }
+}

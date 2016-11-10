@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "type": "submit",
+      "value": "Submit",
+      "class": [
+        "button",
+        "js-form-submit",
+        "search-icon",
+        "form-submit"
+      ]
+    }
+  }
+}

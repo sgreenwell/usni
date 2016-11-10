@@ -1,8 +1,14 @@
 {
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "grid-1x2x3"
+      ]
+    }
+  },
   "items": [
     {
-      "title": "Home",
-      "url": "#",
+      "content": "molecules-article-teaser-imagetop",
       "attributes": {
         "Attribute()": {
           "class": []
@@ -10,8 +16,7 @@
       }
     },
     {
-      "title": "News",
-      "url": "#",
+      "content": "molecules-article-teaser-imagetop",
       "attributes": {
         "Attribute()": {
           "class": []
@@ -19,8 +24,7 @@
       }
     },
     {
-      "title": "Contact",
-      "url": "#",
+      "content": "molecules-adgroup",
       "attributes": {
         "Attribute()": {
           "class": []

@@ -1,0 +1,19 @@
+{#
+/**
+ * @file
+ * Region - Header.
+ */
+#}
+<header class="header container-fluid header-logo-only" role="banner">
+  <section{{ attributes.addClass(classes) }}>
+    <div class="row header-top">
+      <div class="col-xs-12">
+
+          {% block branding %}
+              {{ branding }}
+          {% endblock %}
+
+      </div>
+    </div>
+  </section>
+</header>

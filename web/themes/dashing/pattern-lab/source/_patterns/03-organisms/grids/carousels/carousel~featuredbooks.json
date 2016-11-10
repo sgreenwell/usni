@@ -1,0 +1,101 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "book-view"
+      ]
+    }
+  },
+  "carousel_title":true,
+  "carousel_title_text": "Featured Books",
+  "carousel_button":true,
+  "carousel_button_text": "View All",
+  "carousel_class": "featured",
+  "carousel_xs": "2",
+  "carousel_sm": "3",
+  "carousel_md": "3",
+  "carousel_lg": "5",
+  "carousel_xl": "5",
+  "items": [
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "content": "molecules-book-normal",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    }
+  ]
+}

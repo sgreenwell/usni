@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Menus - Foundation menu.
+ */
+#}
+<ul class="nav-pills menu nav foundation-menu">
+    {% for item in items %}
+        {% set classes = 'menu-item small nav-item'%}
+        <li class="{{ classes }}">
+            {% if item.state == 'active' %}
+                {{ link(item.title, item.url, { 'class':['nav-link', 'is-active']}) }}
+            {% else %}
+                {{ link(item.title, item.url, { 'class':['nav-link']}) }}
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>

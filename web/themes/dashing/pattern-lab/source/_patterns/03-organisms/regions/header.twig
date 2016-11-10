@@ -4,12 +4,43 @@
  * Region - Header.
  */
 #}
-<header class="header" role="banner">
+<header class="header container-fluid test" role="banner">
   <section{{ attributes.addClass(classes) }}>
+    <div class="row header-top">
+      <div class="col-xs-12">
 
-    {% block content %}
-      {{ content }}
-    {% endblock %}
+          {% block branding %}
+              {{ branding }}
+          {% endblock %}
 
+          <ul class="nav-pills menu nav foundation-nav-secondary">
+              <li class="menu-item small nav-item"><a href="#" class="nav-link">Donate</a></li>
+              <li class="menu-item small nav-item"><a href="#" class="nav-link nav-link-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Cart</span></a></li>
+              <li class="menu-item small nav-item"><a href="#" class="nav-link nav-link-icon"><i class="fa fa-user" aria-hidden="true"></i><span> Login</span></a></li>
+              <li class="menu-item small nav-item"><a href="#" class="nav-link nav-link-icon"><i class="fa fa-search" aria-hidden="true"></i><span> Search</span></a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="row header-bottom">
+      <div class="col-xs-12">
+
+        <span class="primary-menu-toggle menu-mobile-icon">Site Menu</span>
+
+        <div class="primary-menu-container">
+
+            {% block menu %}
+                {{ menu }}
+            {% endblock %}
+
+            <a class="primary-menu-toggle btn btn-secondary btn-lg btn-block">Close</a>
+        </div>
+          <div class="inpage-menu-container">
+              {% block menu_secondary %}
+                  {{ menu_secondary }}
+              {% endblock %}
+          </div>
+
+      </div>
+    </div>
   </section>
 </header>

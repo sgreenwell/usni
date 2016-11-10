@@ -1,0 +1,46 @@
+{
+  "header": {
+    "join()": [
+      "organisms-header"
+    ]
+  },
+  "featured": {
+    "join()": [
+      {
+        "include()": {
+          "pattern": "organisms-featured",
+          "with": {
+            "content": {
+              "join()": [
+                "<h1 class=\"h1\">Naval Institute Press</h1>",
+                "molecules-site-menu-press"
+              ]
+            },
+            "attributes": {
+              "Attribute()": {
+                "class": [
+                  "featured-region",
+                  "region"
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "content": {
+    "join()": [
+      "organisms-carousel-bestsellers",
+      "organisms-carousel-featuredbooks",
+      "organisms-carousel-featuredbooks",
+      "organisms-carousel-featuredbooks"
+    ]
+  },
+  "sidebar": {
+    "join()": [
+      "molecules-adgroup",
+      "atoms-sidebar-author-events"
+    ]
+  }
+}

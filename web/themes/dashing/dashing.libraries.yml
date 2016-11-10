@@ -11,5 +11,9 @@ bootstrap:
     gpl-compatible: false
   js:
     node_modules/bootstrap/dist/js/bootstrap.js: {}
+owl.carousel:
+  js:
+    node_modules/owl.carousel/dist/owl.carousel.js: {}
+
   dependencies:
     - core/jquery

@@ -1,0 +1,12 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "aria-hidden": "true",
+      "class": [
+        "fa",
+        "fa-search",
+        "search-icon"
+      ]
+    }
+  }
+}

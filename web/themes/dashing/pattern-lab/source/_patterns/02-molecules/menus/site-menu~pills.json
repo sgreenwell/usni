@@ -1,0 +1,50 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "nav",
+        "nav-pills",
+        "nav-justified",
+        "nav-pills-inline"
+      ]
+    }
+  },
+  "items": [
+    {
+      "title": "Mission & Vision",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "History",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Leadership & Staff",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "State of the Institute",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    }
+  ]
+}

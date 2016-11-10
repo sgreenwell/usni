@@ -1,0 +1,215 @@
+{#
+/**
+ * @file
+ * page - Basic Page.
+ */
+#}
+
+
+<body id="noheader">
+
+    {% block header %}
+        {{ header }}
+    {% endblock %}
+
+
+    <div class="region text-center">
+        <div class="container featured-region-content">
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h2 class="h1">Become a U.S. Naval Institute Member</h2>
+                    <p>U.S. Naval Institute membership is for anyone who values unbiased reporting, cares about national defense, appreciates naval history and wants to be connected to the U.S. Navy, Marine Corps and Coast Guard.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {# /**
+    {% block featured %}
+        {{ featured }}
+    {% endblock %}
+    */ #}
+
+
+
+    <div class="body-container-region">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 body-region jumbotron-region">
+
+                    <div class="row subregion">
+
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 no-spacing">
+                            <div class="jumbotron">
+                                <h3>Student</h3>
+                                <h5 class="h1">$20.00</h5>
+                                <p class="small">Exclusively for faculty and current, full-time students enrolled at an accredited institution, as well as teachers/instructors and school staff.</p>
+
+                                <p><a class="btn btn-primary" style="white-space: normal" href="#">Select this Subscription</a></p>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 no-spacing">
+                            <div class="jumbotron alert-info">
+                                <h3>Digital<br />(Online Only)</h3>
+                                <h5 class="h1">$39.00</h5>
+                                <p class="small">Web-based access to Naval Institute member benefits, including the online versions of Proceedings and Naval History magazine.</p>
+                                <p><a class="btn btn-primary" style="white-space: normal" href="#">Select this Membership</a></p>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-4 no-spacing">
+                            <div class="jumbotron">
+                                <h3>Home Delivery</h3>
+                                <h5 class="h1">$65.00<sup>*</sup></h5>
+                                <p class="small">In addition to all web based content, each month you'll receive a printed copy of the Naval Institute's flagship publication, Proceedings.</p>
+                                <p><a class="btn btn-primary" style="white-space: normal" href="#">Select this Membership</a></p>
+                                <sub>*Additional fees for International Shipping</sub>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 no-spacing text-center">
+                            <p><a href="#">Looking to Renew?</a></p>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    {# /**
+<div class="body-container-region">
+    <div class="container">
+        <div class="row">
+
+            {% if sidebar %}
+                <div class="col-xs-12 col-md-8 col-lg-9 body-region region">
+            {% else %}
+                <div class="col-xs-12 body-region region">
+            {% endif %}
+
+            {% block content %}
+                {{ content }}
+            {% endblock %}
+
+        </div>
+
+            {% if sidebar %}
+                <div class="col-md-4 col-lg-3 sidebar-region region fix-on-scroll">
+                    {% block sidebar %}
+                        {{ sidebar }}
+                    {% endblock %}
+                </div>
+            {% endif %}
+
+        </div>
+    </div>
+</div>
+*/ #}
+
+    <div id="formarea" class="body-container-region region">
+
+        <div class="container">
+<div class="row">
+            <div class="col-xs-12 col-md-6 push-md-6">
+                <h3 class="text-center">Were you looking for ...</h3>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Naval History Subscription <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+                    <a href="#" class="list-group-item">Life Membership <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+                    <a href="#" class="list-group-item">Corporate / Organizational <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+                    <a href="#" class="list-group-item">Gift Membership <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 pull-md-6">
+                <h3 class="text-center">Frequently Asked Questions</h3>
+                <div id="accordion" class="small" role="tablist" aria-multiselectable="true">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Membership Question One
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="card-block">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingTwo">
+                            <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Membership Question Two
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="card-block">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingThree">
+                            <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Membership Question Three
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="card-block">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingFour">
+                            <h5 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Membership Question Three
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div class="card-block">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+        </div>
+    </div>
+    <div class="footer-region region">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-image"><img src="../../../../logo-white.png" /></div>
+                    <p>Copyright &copy; 2017 U.S. Naval Institute</p>
+                    <p><a href="#">Privacy Policy</a>  |  <a href="#">Terms of Use</a>  |  <a href="#">Contact Us</a>  |  <a href="#">Advertise with us</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+

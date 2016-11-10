@@ -1,0 +1,47 @@
+{
+  "header": {
+    "join()": [
+      "organisms-header"
+    ]
+  },
+  "featured": {
+    "join()": [
+      {
+        "include()": {
+          "pattern": "organisms-featured-landing",
+          "with": {
+            "content": {
+              "join()": [
+                "<div class=\"row\">",
+                "organisms-grid-three-block",
+                "</div>",
+                "molecules-site-menu-hidden"
+              ]
+            },
+            "attributes": {
+              "Attribute()": {
+                "class": [
+                  "featured-region"
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "content": {
+    "join()": [
+      "organisms-grid-onetwofour",
+      "organisms-grid-onetwotwo",
+      "organisms-grid-onetwothree"
+    ]
+  },
+  "sidebar": {
+    "join()": [
+      "molecules-adgroup"
+    ]
+  },
+  "sidebar": false
+
+}

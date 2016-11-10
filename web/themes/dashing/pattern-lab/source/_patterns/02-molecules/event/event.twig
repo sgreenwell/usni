@@ -1,0 +1,55 @@
+{#
+/**
+ * @file
+ * Bootstrap v4 Card. EXTENDED to ARticle
+ *
+ * @see http://v4-alpha.getbootstrap.com/components/card/
+ */
+#}
+<{{ element ?: "div" }}{{ attributes.addClass(classes) }}>
+
+
+{% if card_image_top %}
+    {% block card_image_top %}
+        <img class="card-img-top" src="{{ image_medium }}" />
+    {% endblock %}
+{% endif %}
+
+<div class="card-block">
+
+    <div class="card-datebox">
+        <span class="day">24</span>
+        <span class="month">May</span>
+    </div>
+
+    {% block card_event_type %}
+        <span class="card-type">{{ card_event_type }}</span>
+    {% endblock %}
+
+    {% block card_title %}
+        <h4 class="card-title">{{ title }}</h4>
+    {% endblock %}
+
+    {% block card_event_location %}
+        <span class="card-location"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ card_event_location }}</span>
+    {% endblock %}
+
+    {% if card_text %}
+        {% block card_text %}
+            <p class="card-text">{{ snippet }}</p>
+        {% endblock %}
+    {% endif %}
+
+    {% if card_buttons %}
+        {% block card_buttons %}
+            <div class="secondary btn-group expanded">
+                <a href="{{ url }}" class="btn btn-primary">Event Details</a>
+                <a href="{{ url }}" class="btn btn-primary">Register</a>
+            </div>
+        {% endblock %}
+    {% endif %}
+
+</div>
+
+</{{ element ?: "div" }}>
+

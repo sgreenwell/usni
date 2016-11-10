@@ -1,0 +1,702 @@
+{#
+/**
+ * @file
+ * page - Basic Page.
+ */
+#}
+
+
+<body>
+
+<header class="header container-fluid test" role="banner">
+    <section class="region-header">
+        <div class="row header-top">
+            <div class="col-xs-12">
+
+
+                <aside class="branding branding-small">
+                    <div class="branding__site-logo">
+                        <a href="#" title="Home" rel="home">
+                            <img src="../../../../logo.png" alt="Home">
+                        </a>
+                    </div>
+                </aside>
+
+
+
+                <ul class="nav-pills menu nav foundation-nav-secondary">
+                    <li class="menu-item small nav-item"><a href="#" class="nav-link">Donate</a></li>
+                    <li class="menu-item small nav-item"><a href="#" class="nav-link nav-link-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Cart</span></a></li>
+                    <li class="menu-item small nav-item"><a href="#" class="nav-link nav-link-icon"><i class="fa fa-user" aria-hidden="true"></i><span> Login</span></a></li>
+                    <li class="menu-item small nav-item"><a href="#" class="nav-link nav-link-icon"><i class="fa fa-search" aria-hidden="true"></i><span> Search</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row header-bottom">
+            <div class="col-xs-12">
+
+                <span class="primary-menu-toggle menu-mobile-icon">Site Menu</span>
+
+                <div class="primary-menu-container">
+
+                    <ul class="nav-pills menu nav foundation-menu">
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Our Mission</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Membership</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Our Press</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">USNI News</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link is-active">Proceedings</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Naval History</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Archives</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Events</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Donate</a>
+                        </li>
+                    </ul>
+
+                    <a class="primary-menu-toggle btn btn-secondary btn-lg btn-block">Close</a>
+                </div>
+                <div class="inpage-menu-container">
+                    <ul class="nav-pills menu nav foundation-menu">
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Our Mission</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Membership</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Our Press</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">USNI News</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link is-active">Proceedings</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Naval History</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Archives</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Events</a>
+                        </li>
+                        <li class="menu-item small nav-item">
+                            <a href="#" class="nav-link">Donate</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</header>
+<div class="site-menu-row hidden-menu">
+
+    <div class="site-menu-row-toggle">Site Menu</div>
+
+    <ul class="nav nav-tabs nav-justified site-menu-tabs">
+        <li class="menu-item nav-item">
+            <a href="#" class="nav-link is-active">Current Issue</a>
+        </li>
+        <li class="menu-item nav-item">
+            <a href="#" class="nav-link">Popular Content</a>
+        </li>
+        <li class="menu-item nav-item">
+            <a href="#" class="nav-link">Essay Contests</a>
+        </li>
+        <li class="menu-item nav-item">
+            <a href="#" class="nav-link">Magazine Archive</a>
+        </li>
+    </ul>
+</div>
+
+
+    {% block featured %}
+        {{ featured }}
+    {% endblock %}
+
+
+
+<div class="body-container-region">
+    <div class="container">
+        <div class="row">
+
+            {% if sidebar %}
+                <div class="col-xs-12 col-lg-8 body-region region">
+            {% else %}
+                <div class="col-xs-12 body-region region">
+            {% endif %}
+
+
+
+
+                        <div class="article-header">
+                            <h1 class="article-title">American Independence and the Naval Factor</h1>
+                            <p class="deck">Dispersing ships in smaller groups will increase the surface Navy’s ability to deceive and defeat the enemy, but such distributed lethality cannot exist without distributed authority.</p>
+                            <p class="author">Lieutenant Commanders Kit de Angelis and Jason Garfield, US. Navy</p>
+                            <div class="article-info">
+
+                                <p class="postdate">October 10th</p>
+                                <p class="card-category">Proceedings Magazine</p>
+                                <span class="card-category-block">Featured</span>
+                            </div>
+
+                            <div class="page-options">
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="fa fa-facebook" aria-hidden="true"></i> Share</button>
+                                    <button type="button" class="btn btn-default"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</button>
+
+                                </div>
+                                <button type="button" class="btn btn-primary"><i class="fa fa-print" aria-hidden="true"></i></button>
+
+                                <button type="button" class="btn btn-primary"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="article-content">
+
+                            <p><strong>The Revolution&rsquo;s war at sea was more than just an ancillary component&mdash;it was a crucial aspect, and a case study in sea power&rsquo;s omnipresent influence.</strong></p>
+                            <p>It is now no longer necessary to bemoan a lack of maritime perspective on the American Revolution, and yet the naval war still does not receive the recognition that is its due. It is, without question, the largest and most significant naval war of the 18th century; a war that is crucial in helping us to understand the path of the 18th century and the nature of revolutions; and a war that enables us to question&mdash;and in many cases answer in some detail&mdash;the very nature of sea power and its relationship with history. Indeed, no other war in the entire Age of Sail provides more clues as to the influence of sea power upon history. This is a war at sea that has so many lessons to teach us that, ultimately, it helps us understand what a war at sea actually is.</p>
+
+                            <p>Also, of course, it is a war that presents one of the most glaring conundrums in all of military history: How did 13 colonies that, at the start of the war had no navy or army, win their independence from the greatest naval power on earth? And then (now this is the really strange bit) how did they win that independence in 1782 when the Royal Navy was stronger, even, than it had been at the very start of the war? That is the question that, five years ago, first set me off on this path of research that has culminated in my latest work, The Struggle for Sea Power: A Naval History of the American Revolution. As an idea it seemed perfectly incongruous. Nothing motivates me more as an historian than such a mystery, and I believe it is that mystery that makes this the most exciting and fascinating story in all of naval history.</p>
+                            <img class="article-image-inpage" src="../../../../img/fullimage1.jpg">
+                            <p>From first gasp to last whimper the war lasted a decade; it was the longest war in American history until Vietnam two centuries later; it involved no fewer than 22&mdash;yes! 22&mdash;different navies and thousands of privateers from tens of different nations; and was fought on five different oceans as well as on landlocked lakes and majestic rivers and ankle-deep swamps. It involved more large-scale fleet battles than any other naval war of the century, one of which was the most strategically significant naval battle in all of British, American, or French history. This was the Battle of the Chesapeake of 1781&mdash;sometimes known as the Battle of the Virginia Capes&mdash;in which a British fleet intent on rescuing British General Charles Cornwallis, who was stranded at Yorktown, failed to withstand a French attack and was forced to retreat. Without naval support, Cornwallis had no choice but to surrender, thus altering the political landscape in Britain, directly leading to the appointment of a government committed to ending the war and granting the rebellious colonies their independence.</p>
+                            <p>Many fine historians have studied numerous maritime and naval themes of the war, and numerous excellent histories are now available on such various factors as the role of the French, Spanish, American, and British navies; the maritime economy; privateers; fishermen; shipping; and logistics. Added to these valuable books are many hundreds of scholarly articles that touch on unique aspects of the war, and there is a bustling scene of international scholarship. All of these activities draw on an ongoing project of astonishing scale run by the U.S. Naval History and Heritage Command to publish significant documents pertaining to the war at sea. This, the Naval Documents of the American Revolution series, has been running since the mid-1940s, represents knowledge accumulated over several lifetimes, and has become an interesting historical document in its own right. It now stands at 11 volumes, each well over 1,000 pages, and the works include forewords from several generations of U.S. Presidents, from Kennedy to Obama.</p>
+                            <div class="block text-center block-adgroup">
+
+                                <div class="hidden-sm-up">
+                                    <img  alt="250 by 85px advertisment" src="http://placehold.it/250x85" class="ad" />
+                                </div>
+                                <div class="hidden-md-up hidden-xs-down">
+                                    <img  alt="728 by 80px advertisment" src="http://placehold.it/468x60" class="ad" />
+                                </div>
+                                <div class="hidden-lg-up hidden-sm-down">
+                                    <img  alt="250 by 85px advertisment" src="http://placehold.it/468x60" class="ad" />
+                                </div>
+                                <div class="hidden-md-down">
+                                    <img  alt="300 by 250px advertisment" src="http://placehold.it/300x250" class="ad" />
+                                </div>
+
+
+
+
+                                <span class="adgroup-title small">advertisment</span>
+
+                            </div>
+                            <p>And yet it is not until all of these themes and primary sources are brought together, and a few more are carefully added, that one can sense just how significant this war at sea actually was and begin to see answers to some of those crucial historical questions.</p>
+                            <h4>Forward Presence, Panicked Populace</h4>
+                            <p>There are various ways to think about the relationship between sea power and the war, but here is one of the most important that reveals itself by sustained study: The obvious military narratives concern fleet battles, invasion, and blockade, but consider also the arrival of the British fleet off New York in 1776. Before it fired a single shot or unloaded a single soldier, its mere presence terrified the rebels, gave hope to the loyalists, and dramatically altered the situation in New York.</p>
+                            <div class="block text-center block-adgroup float-ad">
+                                <div class="hidden-xl-up hidden-md-down">
+                                    <img  alt="160 by 600px advertisment" src="http://placehold.it/160x600" class="ad" />
+                                </div>
+                                <div class="hidden-lg-down">
+                                    <img  alt="300 by 600px advertisment" src="http://placehold.it/300x600" class="ad" />
+                                </div>
+
+                                <span class="adgroup-title small">advertisement</span>
+
+                            </div>
+                            <p>When Admiral Molyneux Shuldham&rsquo;s small vanguard of 40 ships was spotted on 29 June 1776, Manhattan erupted into chaos. Alarm guns were fired and bells were rung, triggering a mass exodus, &ldquo;the sick, the aged, women and children, half naked, were seen going they know not where.&rdquo;<a href="#footnotes"><sup>1</sup></a> They certainly ended up leaving New York. By the time the British finally attacked, its population was reduced to 5,000. A matter of weeks before it had been 27,000.<a href="#footnotes"><sup>2</sup></a> &ldquo;My God, may I never experience the like feeling again,&rdquo; wrote Continental Army Colonel Henry Knox to his brother before disguising his fear by shouting at his wife, Lucy, telling her off for not having left before.<a href="#footnotes"><sup>3</sup></a> British sea power could disrupt marriages.</p>
+                            <p>The presence of the Royal Navy in New York also triggered violence by awakening dormant pro-British supporters. New York was a hotbed of Tories who had been well aware that a strike would shortly fall on their city and who had been waiting to act until the British masts were visible. They immediately started sending supplies and intelligence to the Royal Navy fleet. There were even well-founded claims that, as soon as British warships anchored in the harbor, Royal Governor William Tryon would distribute pardons to defectors. A group of Tories planned to use the arrival of the fleet as the moment to spike rebel guns in return for pardons and bonuses. The presence of the fleet even sparked dastardly plots to kidnap and poison General George Washington.<a href="#footnotes"><sup>4</sup></a></p>
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <p>The rebel response to this loyalist muscle-flexing was sudden and savage, colored and determined by the presence, rather than the action, of the British fleet. American boats patrolled the coast around Manhattan and Long Island to prevent Tories from getting across to the Royal Navy ships. Tories suspected of spying, aiding the British, or somehow threatening the Americans were caught and tortured. Washington had one suspected traitor hanged in public as a warning; 20,000 people witnessed it&mdash;almost all of New York.<a href="#footnotes"><sup>5</sup></a></p>
+                            <p>The British fleet therefore brought with it a sense of apocalypse. &ldquo;The time is now near at hand which must probably determine whether Americans are to be free men or slaves . . . the fate of unborn millions will now depend, under God, on the courage . . . of this army,&rdquo; wrote Washington.<a href="#footnotes"><sup>6</sup></a></p>
+                            <p>Time and again the presence, or even just the anticipated presence, of a naval fleet had such an effect, and the war was particularly sensitive to it. In 1778 and 1780 just the rumor that the French were sending a major fleet to America dramatically changed the war.</p>
+                            <div class="block text-center block-adgroup">
+
+                                <div class="hidden-sm-up">
+                                    <img  alt="250 by 85px advertisment" src="http://placehold.it/250x85" class="ad" />
+                                </div>
+                                <div class="hidden-md-up hidden-xs-down">
+                                    <img  alt="728 by 80px advertisment" src="http://placehold.it/468x60" class="ad" />
+                                </div>
+                                <div class="hidden-lg-up hidden-sm-down">
+                                    <img  alt="250 by 85px advertisment" src="http://placehold.it/468x60" class="ad" />
+                                </div>
+                                <div class="hidden-md-down">
+                                    <img  alt="300 by 250px advertisment" src="http://placehold.it/300x250" class="ad" />
+                                </div>
+
+
+
+
+                                <span class="adgroup-title small">advertisment</span>
+
+                            </div>
+                            <p>To understand the impact of sea power on the conflict, therefore, one must first realize that military commanders and civilians reacted not only to the reality of enemy sea power&mdash;measured in soldiers landed or cannonballs fired&mdash;but also to its promise and sometimes even to its ghost.The effects of sea power often lingered long after the fleets themselves had vanished.</p>
+                            <p>Another way to think about the nature of a naval war&mdash;let&rsquo;s for now call it a sailors&rsquo; war&mdash;is to consider the men actually doing the fighting and the terrain involved. It was simply impossible for anyone to travel any distance along the Eastern Seaboard of America in the 18th century without being confronted by a river, estuary, or lake, impassable without a significant maritime component and extraordinary maritime skill. And in the 18th century the problem was worse because of the lack of roads and their generally poor quality. As a result, almost every major operation in this war involved a significant maritime component.</p>
+                            <h4>Waterways = Highways</h4>
+                            <p>Rivers were to an 18th-century army as railways were to armies of the 19th century, but these were no passive, gently bubbling streams but evil and treacherous tongues of brown water whose currents could create whirlpools big enough to suck down a fully manned cutter. Figures do not survive, but it is safe to assume that during this war hundreds, perhaps thousands, of sailors drowned in rivers, or otherwise died fighting on, in, or near them.</p>
+                            <div class="block text-center block-adgroup float-ad">
+                                <div class="hidden-xl-up hidden-md-down">
+                                    <img  alt="160 by 600px advertisment" src="http://placehold.it/160x600" class="ad" />
+                                </div>
+                                <div class="hidden-lg-down">
+                                    <img  alt="300 by 600px advertisment" src="http://placehold.it/300x600" class="ad" />
+                                </div>
+
+                                <span class="adgroup-title small">advertisement</span>
+
+                            </div>
+                            <p>Operating vessels in currents near shore was the ultimate test of seamanship. The slightest misjudgment could endanger the lives of all on board, let alone the success of a military operation. Historians have tended to ignore men who fought in these liminal areas between land and sea, but I have the utmost respect for them. It is often overlooked that, for all of his lack of &ldquo;naval&rdquo; experience and knowledge, Washington, being a son of riverine Virginia, was an experienced river boatman.</p>
+                            <p>There are no boundaries between land and sea, and the historian should not construct them in his mind. Naval historians tend to make a false distinction between &ldquo;inland navies&rdquo; and those that disputed &ldquo;command of the sea,&rdquo; but contemporaries saw no difference. They simply talked of &ldquo;command of the water,&rdquo; an excellent phrase that has sadly gone out of use. If you are struggling to see a lake in the same terms as an ocean, stand on the shores of Lake Michigan in a storm. You will not want to go out in a boat.</p>
+                            <p>Colonel Benedict Arnold&rsquo;s &ldquo;march&rdquo; through the Maine wilderness to Quebec in 1775, one of the most famous military operations of the war, is an excellent of example of how we need to apply this mindset, for it wasn&rsquo;t a march at all but was actually an amphibious operation from start to finish. His troops first sailed from Newburyport in Massachusetts to the Kennebec River in Maine in a fleet of 11 ships and then headed into the wilderness with a fleet of 220 bateaux. You can&rsquo;t understand that operation nor its influence on history unless you understand the boats, their construction, and the seamanship&mdash;boat-handling or boatmanship&mdash;involved in such a Herculean task.</p>
+                            <p>This focus on inland waterways, moreover, must be extended to areas far beyond North America if we are to understand how they affected the entire war. There are even direct links between the canal systems of northern France and American independence. In 1779 Britain&rsquo;s decision to declare war on the Dutch Republic was intimately linked with the constant Dutch smuggling of arms to the American rebels. That year, the British discovered that the Dutch and French had nearly finished a scheme by which the former would be able to continue exporting arms to France and thence to America. A network of inland waterways linked the Dutch Republic, Belgium, and the French Channel ports with Nantes in the Bay of Biscay&mdash;a route that would deny the Royal Navy the ability to control that trade via blockade in the English Channel.</p>
+                            <p>Maritime skill in all of its many forms, therefore, was important in the war; indeed one of the most important parts of Washington&rsquo;s army, and on several occasions the most crucial part, was a regiment of mariners from Marblehead, Massachusetts. Washington&rsquo;s famous crossing of the Delaware is the best example of the importance of maritime skill, because the scale of the challenge is so often overlooked. Its popular title is actually misleading: &ldquo;Washington&rsquo;s Crossings&rdquo; would be far more accurate: He actually crossed the Delaware four times. After his initial retreat across the river to escape Cornwallis, Washington subsequently crossed the Delaware three times: once on the night of 25 December 1776, then back across after the Battle of Trenton on the 26th, and then back again into New Jersey on the 29th prior to the Battle of Princeton. On each occasion the entire American army, complete with horses and artillery, was loaded onto boats and ferries, transported across a swollen river packed with ice, and then disembarked. Each operation was a feat of maritime skill in its own right, and each was made possible by the presence of sailors in Washington&rsquo;s army, the same men&mdash;mariners from Marblehead&mdash;who had helped the army escape from the British at Brooklyn the previous summer in a daring and stunningly successful maritime evacuation.</p>
+                            <div class="block text-center block-adgroup">
+
+                                <div class="hidden-sm-up">
+                                    <img  alt="250 by 85px advertisment" src="http://placehold.it/250x85" class="ad" />
+                                </div>
+                                <div class="hidden-md-up hidden-xs-down">
+                                    <img  alt="728 by 80px advertisment" src="http://placehold.it/468x60" class="ad" />
+                                </div>
+                                <div class="hidden-lg-up hidden-sm-down">
+                                    <img  alt="250 by 85px advertisment" src="http://placehold.it/468x60" class="ad" />
+                                </div>
+                                <div class="hidden-md-down">
+                                    <img  alt="300 by 250px advertisment" src="http://placehold.it/300x250" class="ad" />
+                                </div>
+
+
+
+
+                                <span class="adgroup-title small">advertisment</span>
+
+                            </div>
+                            <h4>Sailors on Shore</h4>
+                            <p>As a naval historian the most fascinating discovery was that, on more than one occasion, &ldquo;land&rdquo; battles were contested entirely by sailors firing naval guns. The finest example of this happened at British-held Savannah, Georgia, in October 1779 when a French fleet under the comte d&rsquo;Estaing unsuccessfully besieged the city. The French did so with guns deployed ashore from their warships and manned by sailors. The guns of the British defenses, moreover, were also under the control of sailors who were renowned and respected for their extraordinary skill and endurance under fire. This stage of the battle, therefore, was contested between sailors firing naval guns, but fought on shore between trenches rather than afloat between warships.</p>
+                            <p>The presence, and perhaps even more so the absence, of sailors at crucial moments in crucial theaters set this war hurtling off into unexpected directions. Two British operations make this point clearly. It can be strongly argued that the surrender of the British army at Saratoga in 1777 was largely caused by the significant lack of naval command experience and personnel in what was, at the start, a naval operation down Lake Champlain. And the campaign should have been a naval op at its end, when the force could have sailed to the Hudson via Lake George rather than exposing itself in the woods of Saratoga to American soldiers. The exact opposite of this was the outstanding British attack on Charleston in 1780 when the army and navy shared command knowledge, experience, and decisions, and the personnel worked hand-in-hand to inflict the worst defeat on an American military force until 1862, when more than 12,000 Union troops surrendered to Stonewall Jackson at Harper&rsquo;s Ferry.</p>
+                            <p>Above all, however, a study of the American Revolution emphasises just how difficult it was to wage naval war of any type in this period and the different ways in which it was possible to experience that difficulty. Naval warfare, for example, raised unique problems at the level of strategy and inter-theater operations simply because of the slowness of communication. It would usually take at least a month for a message to travel across the Atlantic, and obviously twice as long to receive a reply, and this was not just about communication but propaganda. Often after crucial engagements, the British and Americans found themselves in a race to get news across the Atlantic, and any advantage in this contest was crucial.</p>
+                            <p>The idea of a naval &ldquo;strategy&rdquo; as we know it was also nonexistent. In fact, there was no such word. This was not an era of men leaning over huge chart tables moving little model ships around; so many here to meet this threat,so many there to put pressure on that government, so many here to defend our trade. Quite to the contrary, war planners had only a loose understanding of exactly how each theater would affect the other, and capability was so limited and unpredictable that, when combined with the slowness of communication, any real planning was far more likely to fail than succeed.</p>
+                            <p>If there is one prominent theme running through the naval operations of the Revolutionary War, it is that, with only a handful of exceptions, none of them worked out as planned. The weather played an immense part. Naval warfare in the Age of Sail was always influenced by the weather, but it seems to have been particularly so, and particularly severe, for this war. All of this meant that sea power was hardly a surgical instrument of war&mdash;more of a heavy blunt club wielded by a blind and drunk weakling.</p>
+                            <p>At the level of tactics, naval operations were confounded by limitations in signaling and the fact that there was no shared interservice doctrine. In essence, this meant that a fleet under one commander in one part of the world would operate with different signals, tactics, and doctrine from another fleet, though from the same nation, elsewhere in the world. It is, in fact, more helpful to think of a navy not as one navy but as numerous different navies that worked in different ways. This did not make for reliable performance. Fleets working in international alliances suffered particularly severely from this type of arrangement. It was almost impossible to get different fleets within a single navy to cooperate with each other, let alone different fleets from different navies&mdash;a very serious problem when the French allied with the Americans in 1778 and then they were joined by the Spanish in 1779.</p>
+                            <p>From the point of view of the economist and administrator, navies were enormously expensive to run and very difficult to maintain at any level of strength. Men had to be found to man the ships, and they had to be bedded, clothed, and kept healthy. In some theaters, such as the Caribbean, this was a horrific task and one at which almost everyone failed, but most did so even in the comfort of home waters. In the early years of the war the Royal Navy repeatedly sent &ldquo;fresh&rdquo; fleets to sea from major British naval dockyards, bound for America where their weight was expected to shift the balance of the war. But with inadequate infrastructure in home waters, the fleets&rsquo; sailors departed British shores sick as dogs. The French and Spanish were simply unable to keep their men healthy for any significant period of time at all.</p>
+                            <p>Old established navies like the British and French faced the same problems, but at a different scale from new ones such as the Continental Navy, which faced its own unique challenges. While the British, for example, were struggling with the problem of getting 5,000 sailors aboard a fleet&#39;s warships without them infecting each other, and the French with how to source sufficient nails to secure sheets of copper to their ships&rsquo; hulls, the Americans struggled with problems specific to fledgling navies: What rules and regulations should the men abide by at sea? How were prizes to be distributed and administered without prize courts? Even the most basic questions took up time: Who was going to design the uniform?</p>
+                            <div class="block text-center block-adgroup">
+
+                                <div class="hidden-sm-up">
+                                    <img  alt="250 by 85px advertisment" src="http://placehold.it/250x85" class="ad" />
+                                </div>
+                                <div class="hidden-md-up hidden-xs-down">
+                                    <img  alt="728 by 80px advertisment" src="http://placehold.it/468x60" class="ad" />
+                                </div>
+                                <div class="hidden-lg-up hidden-sm-down">
+                                    <img  alt="250 by 85px advertisment" src="http://placehold.it/468x60" class="ad" />
+                                </div>
+                                <div class="hidden-md-down">
+                                    <img  alt="300 by 250px advertisment" src="http://placehold.it/300x250" class="ad" />
+                                </div>
+
+
+
+
+                                <span class="adgroup-title small">advertisment</span>
+
+                            </div>
+                            <h4>&lsquo;The Promise of Sea Power&rsquo;</h4>
+                            <p>This is one of the most important themes of the American Revolution. More than anything else, the story of this war is the story of the struggle for sea power and how the difficulty of wielding it shaped the modern world. Yes, the Battle of the Chesapeake turned the conflict toward America and its allies at a crucial moment, but in many respects this example is the exception that has been used to prove the rule. It has been used time and again as an example of how the magic wand of sea power could simply be waved to bring nations and empires to their knees, but nothing could be further from the truth. By 1781 sea power had already achieved extraordinary things in the war and yet, if there was one abiding lesson, it was that any plan of any complexity was destined to fail. The conflict by then had become a maze without any exits.</p>
+                            <p>And yet with every dead end, with every failure and disappointment, expectation of success achieved via sea power remained unaffected. It was almost as if the enormous investment expended on sea power gave navies the right to get away with anything and prevented any significant critical analysis. It remained the case in every country where, in spite of staggering naval expenditure, politicians who made policy had no detailed knowledge of naval affairs and few expert advisers. Chance and the weather could ruin everything as easily as bad planning. The idea of a &ldquo;chain&rdquo; of events is almost completely unhelpful. Events in this war were not strong and joined to each other by iron links but were flimsy, like a house of cards. There was an almost constant sense of apprehension and drama from 1774 right up until the Peace of Paris in 1783, and throughout this enormously long period, there was an almost total absence of realistic expectation attached to sea power. Its promise remained far more powerful than its reality. In a curious way, therefore, this story is a tale about blind faith&mdash;in the god of sea power. And in the subsequent decades&mdash;when Britain really began to dominate the sea in a way it had simply not been able to in the 1770s and American sea power rose phoenix-like from the fire of the Revolution&mdash;events simply cannot be understood unless one considers, carefully and in detail, exactly what had happened in the 1770s between Britain and America. It is a story that is scarcely believable even now, and at the time we know that the countries involved also struggled to come to terms with all that had transpired.</p>
+                            <p>Washington himself believed that, in the future, the story of American independence would actually be considered a work of fiction: &ldquo;For it will not be believed that such a force as Great Britain has employed for eight years in this Country could be barred in their plan for Subjugating it by numbers infinitely less, composed of Men oftentimes half starved; always in Rags, without pay, and experiencing, at times, every species of distress which human nature is capable of undergoing.&rdquo;<a href="#footnotes"><sup>7</sup></a></p>
+
+                            <div class="block text-center block-adgroup float-ad">
+                                <div class="hidden-xl-up hidden-md-down">
+                                    <img  alt="160 by 600px advertisment" src="http://placehold.it/160x600" class="ad" />
+                                </div>
+                                <div class="hidden-lg-down">
+                                    <img  alt="300 by 600px advertisment" src="http://placehold.it/300x600" class="ad" />
+                                </div>
+
+                                <span class="adgroup-title small">advertisement</span>
+
+                            </div>
+
+                            <small class="footnotes">
+                                <a id="footnotes" name="footnotes"></a>
+
+                                <p>1. David Hackett Fischer, Washington&rsquo;s Crossing (New York: Oxford University Press, 2004), 106.</p>
+                                <p>2. Richard M. Ketchum, Saratoga: Turning Point in America&rsquo;s Revolutionary War (New York: Henry Holt &amp; Co., 1997), 7.</p>
+                                <p>3. North Callahan, &ldquo;Henry Knox: American Artillerist,&rdquo; in George Athan Billias, ed., George Washington&rsquo;s Generals and Opponents: Their Exploits and Leadership (Boston: Da Capo, 1994), 243. Andrew O&rsquo;Shaughnessy, The Men Who Lost America: British Command During the Revolutionary War and the Preservation of the Empire (London: Oneworld Publications, 2013), 92.</p>
+                                <p>4. James Thacher, A Military Journal During the American Revolutionary War from 1775 to 1783 (Boston: Richardson and Lord, 1823), 64. Ron Chernow, Washington: A Life (New York: Penguin, 2010), 232. David McCullough, 1776 (New York: Simon &amp; Schuster, 2005), 133.</p>
+                                <p>5. Chernow, Washington, 233.</p>
+                                <p>6. W. W. Abbot, ed., The Papers of George Washington (Charlottesville: University of Virginia Press, 1993), Revolutionary War Series, vol. 5 (June&ndash;August 1776), 180.</p>
+                                <p>7. Billias, George Washington&rsquo;s Generals and Opponents, vii.</p>
+                            </small>
+
+                            <ul class="list-group" style="margin-bottom:20px">
+                                <li class="list-group-item">
+                                    <small>Article Keywords: <a href="#">China</a>, <a href="#">FBI</a>, <a href="#">Lt. Cmdr. Edward Lin</a>, <a href="#">NCIS</a></small>
+                                </li>
+                                <li class="list-group-item">
+                                    <small>Categories: <a href="#">Budget Industry</a>, <a href="#">Foreign Forces</a>, <a href="#">News & Analysis</a>, <a href="#">U.S. Navy</a></small>
+                                </li>
+                            </ul>
+
+
+
+
+                            <div class="card card-block card-author">
+                                <img class="author-image" alt="300 by 250px advertisment" src="http://placehold.it/150x150" />
+                                <h4 class="card-title">Lieutenant Commanders Kit de Angelis </h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur sed purus id congue. Mauris non convallis nunc. Vivamus vel urna rhoncus, dignissim velit ut, gravida ex. Vestibulum in tellus ultricies, dignissim erat sed, facilisis libero. Vivamus convallis eu dui tempus tempus. Quisque maximus ligula vel purus venenatis convallis.</p>
+                                <a href="#" class="card-link">More stories this author</a>
+                                <a href="#" class="card-link">View biography</a>
+                            </div>
+
+
+                            <div id="disqus_thread"></div>
+                            <script type="text/javascript">
+                                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                                var disqus_shortname = 'jsfiddles'; // required: replace example with your forum shortname
+
+                                /* * * DON'T EDIT BELOW THIS LINE * * */
+                                (function() {
+                                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                                })();
+                            </script>
+                            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+                        </div>
+
+            </div>
+
+
+
+
+            {% if sidebar %}
+                <div class="col-xs-12 col-lg-4 sidebar-region region fix-on-scroll">
+                    {% block sidebar %}
+                        {{ sidebar }}
+                    {% endblock %}
+
+
+
+                </div>
+            {% endif %}
+
+        </div>
+    </div>
+</div>
+
+
+
+
+    <div class="body-container-region">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 body-region region">
+
+
+                    <div class="row subregion">
+                        <div class="col-xs-12">
+                            <h3 class="block-title text-md-center">Related Articles</h3>
+                            <div class="grid-1x2x4 grid-hide-small">
+
+                                <div class="grid-item">
+                                    <div class="card card-article card-no-border">
+
+                                        <a href="#" class="card-link divclick">
+
+
+                                            <img class="card-img-top" src="../../../../img/fullimage1.jpg">
+                                            <span class="card-category-block covered">Feature</span>
+
+
+
+
+                                            <div class="card-block">
+
+
+
+                                                <h4 class="card-title">
+                                                    Article Title
+                                                </h4>
+
+
+
+
+
+
+                                                <div class="card-author ">
+                                                    Cpt. John Doe
+                                                </div>
+
+                                                <div class="card-date ">
+                                                    October 2016
+                                                </div>
+
+                                            </div>
+
+
+                                        </a>
+
+                                    </div>
+
+                                    <style>
+                                        .card.article {
+                                            max-width: none;
+
+                                        }
+                                        .card.card-featured .card-block{
+                                            padding-top: 100px;
+                                        }
+                                    </style>
+
+
+                                </div>
+                                <div class="grid-item">
+                                    <div class="card card-article card-no-border">
+
+                                        <a href="#" class="card-link divclick">
+
+
+                                            <img class="card-img-top" src="../../../../img/fullimage1.jpg">
+                                            <span class="card-category-block covered">Feature</span>
+
+
+
+
+                                            <div class="card-block">
+
+
+
+                                                <h4 class="card-title">
+                                                    Article Title
+                                                </h4>
+
+
+
+
+
+
+                                                <div class="card-author ">
+                                                    Cpt. John Doe
+                                                </div>
+
+                                                <div class="card-date ">
+                                                    October 2016
+                                                </div>
+
+                                            </div>
+
+
+                                        </a>
+
+                                    </div>
+
+                                    <style>
+                                        .card.article {
+                                            max-width: none;
+
+                                        }
+                                        .card.card-featured .card-block{
+                                            padding-top: 100px;
+                                        }
+                                    </style>
+
+
+                                </div>
+                                <div class="grid-item">
+                                    <div class="card card-article card-no-border">
+
+                                        <a href="#" class="card-link divclick">
+
+
+                                            <img class="card-img-top" src="../../../../img/fullimage1.jpg">
+                                            <span class="card-category-block covered">Feature</span>
+
+
+
+
+                                            <div class="card-block">
+
+
+
+                                                <h4 class="card-title">
+                                                    Article Title
+                                                </h4>
+
+
+
+
+
+
+                                                <div class="card-author ">
+                                                    Cpt. John Doe
+                                                </div>
+
+                                                <div class="card-date ">
+                                                    October 2016
+                                                </div>
+
+                                            </div>
+
+
+                                        </a>
+
+                                    </div>
+
+                                    <style>
+                                        .card.article {
+                                            max-width: none;
+
+                                        }
+                                        .card.card-featured .card-block{
+                                            padding-top: 100px;
+                                        }
+                                    </style>
+
+
+                                </div>
+                                <div class="grid-item">
+                                    <div class="card card-article card-no-border">
+
+                                        <a href="#" class="card-link divclick">
+
+
+                                            <img class="card-img-top" src="../../../../img/fullimage1.jpg">
+                                            <span class="card-category-block covered">Feature</span>
+
+
+
+
+                                            <div class="card-block">
+
+
+
+                                                <h4 class="card-title">
+                                                    Article Title
+                                                </h4>
+
+
+
+
+
+
+                                                <div class="card-author ">
+                                                    Cpt. John Doe
+                                                </div>
+
+                                                <div class="card-date ">
+                                                    October 2016
+                                                </div>
+
+                                            </div>
+
+
+                                        </a>
+
+                                    </div>
+
+                                    <style>
+                                        .card.article {
+                                            max-width: none;
+
+                                        }
+                                        .card.card-featured .card-block{
+                                            padding-top: 100px;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="callouts-region region-imageback ad-region region">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3>USNI Internal Ad or HTML 5 Full width Ad</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="body-container-region">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 body-region region">
+                    <div class="loading-bar">
+                        <i class="fa fa-refresh fa-spin fa-fw"></i>
+                        <span>Loading...</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-region region">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-image"><img src="../../../../logo-white.png" /></div>
+                    <p>Copyright &copy; 2017 U.S. Naval Institute</p>
+                    <p><a href="#">Privacy Policy</a>  |  <a href="#">Terms of Use</a>  |  <a href="#">Contact Us</a>  |  <a href="#">Advertise with us</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+

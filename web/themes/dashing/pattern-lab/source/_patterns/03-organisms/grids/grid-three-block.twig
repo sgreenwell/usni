@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ * Grid - Pyramid grid.
+ *
+ * Responsive grid creates rows of 4, 3, 2, and 1 boxes at specific breakpoints.
+ *
+ * @see `scss/30-global/_grids.scss`
+ */
+#}
+<div class="col-xs-12 col-md-8 no-spacing">
+    {{ blockone }}
+</div>
+<div class="col-xs-12 col-md-4 no-spacing">
+    <div class="row no-spacing">
+        <div class="col-xs-6 col-md-12 no-spacing">
+            {{ blocktwo}}
+        </div>
+        <div class="col-xs-6 col-md-12 no-spacing">
+            {{ blockthree }}
+        </div>
+    </div>
+</div>
+

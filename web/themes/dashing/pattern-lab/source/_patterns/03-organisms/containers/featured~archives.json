@@ -1,0 +1,47 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "featured-region",
+        "region",
+        "featured-region-landing",
+        "featured-large",
+        "text-center"
+      ]
+    }
+  },
+  "content": {
+    "join()": [
+      {
+        "include()": {
+          "pattern": "atoms-h1",
+          "with": {
+            "title": "The Heritage Group",
+            "attributes": {
+              "Attribute()": {
+                "class": [
+                  "sectiontitle"
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "include()": {
+          "pattern": "atoms-h2",
+          "with": {
+            "title": "home to the personal and professional legacies of the sea services in the form of photographic collections, historical and certification documents, oral histories, fine art prints and unique merchandise.",
+            "attributes": {
+              "Attribute()": {
+                "class": [
+                  "sectionsubtitle lighttitle"
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

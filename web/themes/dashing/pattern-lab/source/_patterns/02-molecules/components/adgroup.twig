@@ -1,0 +1,35 @@
+{#
+/**
+ * @file
+ * Block - Search.
+ */
+#}
+{{ pl_prefix }}
+
+<div class="hidden-sm-up">
+    {% block content_xs %}
+        {{ content_xs }}
+    {% endblock %}
+</div>
+<div class="hidden-md-up hidden-xs-down">
+    {% block content_sm %}
+        {{ content_sm }}
+    {% endblock %}
+</div>
+<div class="hidden-lg-up hidden-sm-down">
+    {% block content_md %}
+        {{ content_md }}
+    {% endblock %}
+</div>
+<div class="hidden-md-down">
+    {% block content_lg %}
+        {{ content_lg }}
+    {% endblock %}
+</div>
+
+
+
+
+    <span class="adgroup-title small">{{ label }}</span>
+
+{{ pl_suffix }}

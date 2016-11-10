@@ -1,0 +1,113 @@
+{#
+/**
+ * @file
+ * page - Basic Page.
+ */
+#}
+
+
+<body>
+
+    {% block header %}
+        {{ header }}
+    {% endblock %}
+
+
+
+    {% block featured %}
+        {{ featured }}
+    {% endblock %}
+
+
+<div class="body-container-region">
+    <div class="container">
+        <div class="row">
+
+
+
+
+
+
+            {% if sidebar %}
+                <div class="col-xs-12 col-md-8 col-lg-9 body-region region">
+            {% else %}
+                <div class="col-xs-12 body-region region">
+            {% endif %}
+
+                {% block content %}
+                    {{ content }}
+                {% endblock %}
+
+                <h3>History of the U.S. Naval Institute</h3>
+                <p>The U.S. Naval Institute has been a fixture at the U.S. Naval Academy since its founding in 1873 by a group of 15 naval officers who began meeting to discuss the serious implications of a smaller, post-Civil War Navy and other matters of professional interest. The Naval Institute&#39;s headquarters on the grounds of the Naval Academy have a commanding view of the Severn River and the cemetery, where lie some of the most prominent heroes in Navy and Marine Corps lore.</p>
+                <p>The founding vision was to create a forum for the exchange of ideas, to disseminate and advance the knowledge of sea power, and to preserve our naval and maritime heritage. The &quot;proceedings&quot; of those earliest discussions were eventually published and read throughout the fleet. It was in the fleet, at the tip of the sword, where the value of the Naval Institute&#39;s forum was truly felt. The impact of the new organization spread quickly and soon embraced all of the nation&#39;s Sea Services-Navy, Marine Corps and Coast Guard. Today, the Naval Institute boasts more than 100,000&nbsp;constituents worldwide.</p>
+                <p>The Naval Institute has three core activities:</p>
+                <h4>Magazines and Conferences</h4>
+                <p>Since 1874, <a _fcksavedurl="/magazines/proceedings/" class="italic" href="/magazines/proceedings" name="Proceedings Magazine" target="_self">Proceedings</a> magazine has been the most identifiable journal of the Naval Institute. Each monthly issue includes articles from military professionals and civilian experts, historical essays, book reviews, full-color photography, and lively reader commentary. Its sister publication, the bimonthly <a _fcksavedurl="/magazines/navalhistory/" class="italic" href="/magazines/navalhistory" name="Naval History Magazine" target="_self">Naval History</a>, was added in 1987. To expand the impact of the forum, the Naval Institute created a&nbsp;<a _fcksavedurl="/conferences/index" href="/events" name="Conference and Events" target="_self">conferences</a> program in 1985 that harks back to its earliest days. The&nbsp;conferences program, open to members and to the public, features live discussion of crucial defense-related topics at three sites each year: San Diego, Washington, DC, and Virginia Beach.</p>
+                <h4>Naval Institute Press</h4>
+                <p>Best known for <a _fcksavedurl="/store/item?ITEM_ID=425" class="italic" href="/store/books/navy-textbooks" name="The Blue Jackets Manual" target="_self">The Bluejackets&#39; Manual</a> and <a _fcksavedurl="/store/item?ITEM_ID=124" class="italic" href="/store/books/fiction/hunt-red-october" name="The Hunt for Red October" target="_self">The Hunt for Red October</a>, the <a _fcksavedurl="/navalinstitutepress/index" href="/navalinstitutepress" name="Naval Institute Press" target="_self">Naval Institute Press</a> is one of the world&#39;s largest and most respected publishers of naval and military books. Created in 1898 with the publication of basic guides to naval practices, the Naval Institute Press has since broadened its scope to include books of more general interest. Titles now range from how-to books on boating and navigation to battle histories, biographies, ship and aviation guides, professional manuals, a quality paperback series of classic works of fiction and nonfiction, and audiobooks.</p><h4>History and Preservation</h4><p>One of the primary aspects of the Naval Institute&#39;s mission is to preserve our naval and maritime heritage with an ever-expanding collection of more than 200 <strong>oral histories</strong> and 450,000 <strong>rare naval and maritime images</strong>. Bound copies of the <a _fcksavedurl="/navalinstitutepress/OralHistory" href="/heritage/oral-history" name="Oral History USNI" target="_self">oral histories</a> and photographs of naval ships, aircraft, and other historically significant images are sold, the profits of which are used to fund further growth. The department recently began to digitize the photo collection and now sells electronic <a _fcksavedurl="http://pictopia.com/perl/gal?provider_id=319" href="http://pictopia.com/perl/gal?provider_id=319" target="Photo archive">images</a>. The Naval Institute&nbsp;also has recently introduced&nbsp;<em><a _fcksavedurl="/aaw" href="http://www.americans-at-war.com" name="Americans at War" target="_blank">Americans at War</a>, </em>a living history of Americans at war in their own words and from their own experiences. These 90-second vignettes convey powerful stories of inspiration, pride, and patriotism.</p><h4>The Naval Institute Foundation</h4><p>The Naval Institute Foundation, Inc., was established in 1992 to ensure that the Naval Institute would have the firm financial footing necessary to continue its mission of advancing professional, literary, and scientific knowledge in the naval and maritime services. The Internal Revenue Service has certified the Foundation as a 501(c)(3) educational/ charitable organization, contributions to which, by individuals, corporations, and foundations, are tax-deductible to the extent allowed by law.</p><h4>For more information:</h4><p>The most immediate source of information is right here on the Naval Institute&#39;s Web site, <a _fcksavedurl="/index" href="https://www.usni.org/index" target="_blank">www.usni.org</a>. The entire booklist is in an easily searchable <a _fcksavedurl="/store/index" href="/store" name="USNI Store" target="_self">database</a>. The index to and contents of <a _fcksavedurl="/magazines/proceedings/" class="italic" href="/magazines/proceedings" name="Proceedings Magazine" target="_self">Proceedings</a> since 1996 are available electronically as well as selected articles from <a _fcksavedurl="/magazines/navalhistory/index" href="/magazines/navalhistory" name="Naval History Magazine" target="_self"><em>Naval History</em></a> and information about conferences, future and past. Opportunities for electronic discussions (eForum), or purchase of photos and other products also are available.</p><p>For more information on joining, <a _fcksavedurl="/membership/membershipbenefits" href="/membership/membership-information" name="Memebership Information and Benefits" target="_self">click here</a>.&nbsp;Be sure to sign up for <a _fcksavedurl="https://www.usni.org/members/register" href="/" name="E-Mail Newsletter Registration" target="_self">free email news alerts</a> to Institute events and special offers.</p>
+
+            </div>
+
+            {% if sidebar %}
+                <div class="col-md-4 col-lg-3 sidebar-region region fix-on-scroll">
+                    {% block sidebar %}
+                        {{ sidebar }}
+                    {% endblock %}
+                </div>
+            {% endif %}
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="callouts-region region">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h4>USNI Quick Links</h4>
+                    <ul class="quicklinks">
+                        <li><a href="#">About the USNI</a></li>
+                        <li><a href="#">Books & Press</a></li>
+                        <li><a href="#">Naval History Magazine</a></li>
+                        <li><a href="#">USNI News</a></li>
+                        <li><a href="#">Proceedings Magazine</a></li>
+                        <li><a href="#">Oral Histories</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">The Archives</a></li>
+                        <li><a href="#">Heritage Foundation</a></li>
+                        <li><a href="#">Photos & Historical Prints</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Join the Newsletter</h3>
+                    <p>Sign up to get updates about new releases and party invites.</p>
+                    <input type="search" />
+                    <p><a type="button" class="btn btn-default" href="#">Learn More</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-region region">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-image"><img src="../../../../logo-white.png" /></div>
+                    <p>Copyright &copy; 2017 U.S. Naval Institute</p>
+                    <p><a href="#">Privacy Policy</a>  |  <a href="#">Terms of Use</a>  |  <a href="#">Contact Us</a>  |  <a href="#">Advertise with us</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+

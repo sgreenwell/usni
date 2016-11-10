@@ -1,0 +1,17 @@
+{
+  "blockone": {
+    "join()": [
+      "molecules-article-teaser-imageback-feature"
+    ]
+  },
+  "blocktwo": {
+      "join()": [
+        "molecules-article-teaser-imageback"
+      ]
+  },
+  "blockthree": {
+    "join()": [
+      "molecules-article-teaser-imageback"
+    ]
+  }
+}

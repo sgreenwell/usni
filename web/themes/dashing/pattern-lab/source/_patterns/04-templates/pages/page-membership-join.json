@@ -1,0 +1,19 @@
+{
+  "header": {
+    "join()": [
+      "organisms-header-back"
+    ]
+  },
+  "featured": {
+    "join()": [
+      "organisms-featured-landing"
+    ]
+  },
+  "content": {
+    "join()": [
+      "molecules-adgroup-horizantal",
+      "organisms-pyramid-grid-articles"
+    ]
+  },
+  "sidebar": false
+}

@@ -1,0 +1,21 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "cta",
+        "card",
+        "card-article"
+      ]
+    }
+  },
+  "title": "Call to Action Title",
+  "card_image_top": false,
+  "card_text": true,
+  "card_links": false,
+  "card_buttons": true,
+
+  "card_category": false,
+  "card_author": false,
+  "card_image_background": true,
+  "image_medium": "../../../../img/fullimage1.jpg"
+}

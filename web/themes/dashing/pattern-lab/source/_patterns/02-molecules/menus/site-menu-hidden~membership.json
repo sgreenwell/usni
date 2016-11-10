@@ -1,0 +1,59 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "nav",
+        "nav-tabs",
+        "nav-justified",
+        "site-menu-tabs"
+      ]
+    }
+  },
+  "items": [
+    {
+      "title": "Why Join the USNI",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Member Benefits",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Yearly Membership",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Life Membership",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    },
+    {
+      "title": "Renew",
+      "url": "#",
+      "attributes": {
+        "Attribute()": {
+          "class": []
+        }
+      }
+    }
+  ]
+}

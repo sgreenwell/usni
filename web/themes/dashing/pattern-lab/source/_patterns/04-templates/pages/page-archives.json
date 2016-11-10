@@ -1,0 +1,25 @@
+{
+  "header": {
+    "join()": [
+      "organisms-header"
+    ]
+  },
+  "featured": {
+    "join()": [
+      "organisms-featured-archives",
+      "atoms-content-cta-archives"
+    ]
+  },
+  "content": {
+    "join()": [
+      "<h1 class=\"pagetitle\">United States Naval Insitute Archives</h1>",
+      "organisms-pyramid-grid-cards"
+    ]
+  },
+  "sidebar": {
+    "join()": [
+      "molecules-adgroup",
+      "molecules-adgroup"
+    ]
+  }
+}

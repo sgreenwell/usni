@@ -1,0 +1,17 @@
+{#
+/**
+ * @file
+ * Region - Header.
+ */
+#}
+<div {{ attributes.addClass(classes) }}>
+    <div class="container featured-region-content">
+        <div class="row">
+            <div class="col-md-12">
+                {% block content %}
+                    {{ content }}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+</div>

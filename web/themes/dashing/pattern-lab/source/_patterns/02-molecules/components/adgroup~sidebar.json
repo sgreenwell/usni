@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": []
+    }
+  },
+  "label": "advertisement",
+  "content_xs": "atoms-image-ad-250x85",
+  "content_sm": "atoms-image-ad-180x150",
+  "content_md": "atoms-image-ad-250x85",
+  "content_lg": "atoms-image-ad-160x600",
+  "pl_prefix": "<div class=\"block text-center block-adgroup\">",
+  "pl_suffix": "</div>"
+}

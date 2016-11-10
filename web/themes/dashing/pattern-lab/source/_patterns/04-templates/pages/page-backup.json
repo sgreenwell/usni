@@ -1,0 +1,23 @@
+{
+  "header": {
+    "join()": [
+      "organisms-header"
+    ]
+  },
+  "featured": {
+    "join()": [
+      "organisms-featured"
+    ]
+  },
+  "content": {
+    "join()": [
+      "organisms-pyramid-grid-cards"
+    ]
+  },
+  "sidebar": {
+    "join()": [
+      "molecules-adgroup",
+      "molecules-article-teaser-noimage"
+    ]
+  }
+}

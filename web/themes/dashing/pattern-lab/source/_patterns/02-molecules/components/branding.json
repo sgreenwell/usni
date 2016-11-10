@@ -5,7 +5,7 @@
     }
   },
   "site_logo": "../../../../logo.svg",
-  "site_title": "Drupal Lab",
+  "site_title": "PatternLab Drupal Starter",
   "site_slogan": "Drupal 8 + Pattern Lab Twig",
   "pl_prefix": "<div class=\"col-md-9\">",
   "pl_suffix": "</div>"

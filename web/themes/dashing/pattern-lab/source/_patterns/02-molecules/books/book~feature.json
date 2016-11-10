@@ -1,0 +1,19 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "card",
+        "card-book",
+        "text-center"
+      ]
+    }
+  },
+  "card_type_book": true,
+  "card_title_sub": true,
+  "card_author": true,
+  "card_text": false,
+  "card_binding": true,
+  "card_price": false,
+  "image_book": "http://placehold.it/280x371"
+
+}

@@ -73,6 +73,7 @@ drupal:
   # when these files change
   watch:
     - pattern-lab/source/_patterns/**/*.twig
+    - pattern-lab/source/_patterns/**/*.json
     - templates/**
   # run this command
   command: ../../../vendor/bin/drupal cr all

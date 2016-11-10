@@ -1,0 +1,358 @@
+{#
+/**
+ * @file
+ * page - Basic Page.
+ */
+#}
+
+
+<body id="noheader">
+
+    {% block header %}
+        {{ header }}
+    {% endblock %}
+
+
+    <div class="region text-center">
+        <div class="container featured-region-content">
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <h2 class="h1">Yearly Member</h2>
+                    <p>We are and independatnt forum lorem ipsum dolor sit amet mauris tristique scelerisque nulla sit amet congue.</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {# /**
+    {% block featured %}
+        {{ featured }}
+    {% endblock %}
+    */ #}
+
+    <div class="body-container-region">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 body-region jumbotron-region">
+
+                    <div class="row subregion">
+                        <div class="col-xs-12 col-sm-6 col-md-4 no-spacing">
+                            <div class="jumbotron">
+                                <h3>Regular Membership</h3>
+                                <h5 class="h1">$59.00</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique scelerisque nulla sit amet congue.</p>
+                                <label class="custom-control custom-radio">
+                                    <input id="radio1" name="radio" type="radio" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description">Select this Membership</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 no-spacing">
+                            <div class="jumbotron alert-info">
+                                <h3>Online <br /> Membership</h3>
+                                <h5 class="h1">$39.00</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique scelerisque nulla sit amet congue.</p>
+                                <label class="custom-control custom-radio">
+                                    <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description">Select this Membership</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 no-spacing">
+                            <div class="jumbotron">
+                                <h3>Student Membership</h3>
+                                <h5 class="h1">$20.00</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique scelerisque nulla sit amet congue.</p>
+
+                                <label class="custom-control custom-radio">
+                                    <input id="radio3" name="radio" type="radio" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description">Select this Membership</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 no-spacing text-center">
+                            <p><a href="#">Looking to Renew?</a></p>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    {# /**
+<div class="body-container-region">
+    <div class="container">
+        <div class="row">
+
+            {% if sidebar %}
+                <div class="col-xs-12 col-md-8 col-lg-9 body-region region">
+            {% else %}
+                <div class="col-xs-12 body-region region">
+            {% endif %}
+
+            {% block content %}
+                {{ content }}
+            {% endblock %}
+
+        </div>
+
+            {% if sidebar %}
+                <div class="col-md-4 col-lg-3 sidebar-region region fix-on-scroll">
+                    {% block sidebar %}
+                        {{ sidebar }}
+                    {% endblock %}
+                </div>
+            {% endif %}
+
+        </div>
+    </div>
+</div>
+*/ #}
+
+
+    <div id="formarea" class="body-container-region">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 body-region region">
+
+                    <div class="row subregion">
+                        <div class="col-xs-12">
+
+                            <form class="form-well">
+                                <h2 style="padding-bottom: 20px;">Member Information</h2>
+                                <div class="form-group row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label">Service</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10 ">
+                                        <select class="form-control" id="exampleSelect1">
+                                            <option>Civilian</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2  col-form-label">Military Status</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <select class="form-control" id="exampleSelect1">
+                                            <option>Civilian</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2  col-form-label">Rank/Title</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <select class="form-control" id="exampleSelect1">
+                                            <option>Please Select</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group has-danger row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label">First Name</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <input class="form-control" type="text" value="" id="example-text-input" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="form-group has-danger row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label">Last Name</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <input class="form-control" type="text" value="" id="example-text-input-2" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2  col-form-label">Suffix</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <select class="form-control" id="exampleSelect1">
+                                            <option>Please Select</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label">Company</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <input class="form-control" type="text" value="" id="example-text-input" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="form-group has-danger row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label">Street Address</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <input class="form-control" type="text" value="" id="example-text-input" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label"></label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <input class="form-control" type="text" value="" id="example-text-input" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="form-group has-danger row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label">City</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <input class="form-control" type="text" value="" id="example-text-input" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="form-group has-danger row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label">Country</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <input class="form-control" type="text" value="" id="example-text-input" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="form-group has-danger row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label">State / Province</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <input class="form-control" type="text" value="" id="example-text-input" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label">Region</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <input class="form-control" type="text" value="" id="example-text-input" autocomplete="off">
+                                        <small class="form-text text-muted">Example help text that remains unchanged.</small>
+                                    </div>
+                                </div>
+                                <div class="form-group has-danger row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label">Postal Code</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <input class="form-control" type="text" value="" id="example-text-input" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="form-group has-danger row">
+                                    <label for="example-text-input" class="col-xs-12 col-sm-3 col-md-2 col-form-label">Phone Number</label>
+                                    <div class="col-xs-12 col-sm-9 col-md-10">
+                                        <input class="form-control" type="text" value="" id="example-text-input" autocomplete="off">
+                                    </div>
+                                </div>
+
+                            </form>
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="formarea" class="body-container-region">
+
+        <div class="container">
+            <h3 class="h1 text-center">Frequently Asked Questions</h3>
+            <div id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingOne">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Membership Question One
+                            </a>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="card-block">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingTwo">
+                        <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Membership Question Two
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="card-block">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingThree">
+                        <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Membership Question Three
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="card-block">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingFour">
+                        <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Membership Question Three
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="card-block">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-region region">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-image"><img src="../../../../logo-white.png" /></div>
+                    <p>Copyright &copy; 2017 U.S. Naval Institute</p>
+                    <p><a href="#">Privacy Policy</a>  |  <a href="#">Terms of Use</a>  |  <a href="#">Contact Us</a>  |  <a href="#">Advertise with us</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+

@@ -1,0 +1,23 @@
+{#
+/**
+ * @file
+ * Menus - Site menu.
+ */
+#}
+<div class="site-menu-row">
+
+    <div class="site-menu-row-toggle">Section</div>
+
+    <ul {{ attributes.addClass(classes) }}>
+      {% for item in items %}
+        {% set classes = 'menu-item nav-item'%}
+        <li class="{{ classes }}">
+          {% if loop.index == 1 %}
+            {{ link(item.title, item.url, { 'class':['nav-link', 'is-active']}) }}
+          {% else %}
+            {{ link(item.title, item.url, { 'class':['nav-link']}) }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+</div>

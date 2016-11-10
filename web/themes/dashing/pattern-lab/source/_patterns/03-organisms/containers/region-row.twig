@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Region - Row.
+ */
+#}
+<div {{ attributes.addClass(classes) }}>
+    {% if fullwidth %}
+        <div class="container-fluid">
+    {% else %}
+        <div class="container">
+    {% endif %}
+
+        <div class="row">
+            <div class="col-md-12">
+                {% block content %}
+                    {{ content }}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+</div>

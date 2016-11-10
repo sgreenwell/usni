@@ -1,0 +1,13 @@
+{
+  "title": "Article Title",
+  "card_image_top": true,
+  "card_image_background": false,
+  "card_text": true,
+  "card_links": false,
+  "card_buttons": false,
+
+  "card_category": true,
+  "card_category_text": "Naval Fleets",
+  "card_author": true,
+  "card_author_text": "Cpt. John Doe"
+}

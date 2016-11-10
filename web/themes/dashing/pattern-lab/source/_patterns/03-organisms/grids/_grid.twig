@@ -1,0 +1,32 @@
+{#
+/**
+ * @file
+ * Grid - Pyramid grid.
+ *
+ * Responsive grid creates rows of 4, 3, 2, and 1 boxes at specific breakpoints.
+ *
+ * @see `scss/30-global/_grids.scss`
+ */
+#}
+
+<div class="row subregion">
+    <div class="col-xs-12">
+        {% if grid_title %}
+            <h3 class="block-title text-md-center">{{ grid_title_text }}</h3>
+        {% endif %}
+        <div {{ attributes.addClass(classes) }}>
+
+          {% block items %}
+            {% for item in items %}
+              <div{{ item.attributes.addClass('grid-item') }}>
+                {{ item.content }}
+              </div>
+            {% endfor %}
+          {% endblock %}
+
+        </div>
+        {% if grid_button %}
+            <p class="text-xs-center"><a class="btn btn--alt btn-selfcall" href="#">{{ grid_button_text }}</a></p>
+        {% endif %}
+    </div>
+</div>

@@ -1,0 +1,19 @@
+{
+  "header": {
+    "join()": [
+      "organisms-header"
+    ]
+  },
+  "content": {
+    "join()": [
+      "organisms-carousel-bestsellers"
+    ]
+  },
+  "sidebar": {
+    "join()": [
+      "molecules-adgroup"
+    ]
+  },
+  "sidebar": false
+
+}

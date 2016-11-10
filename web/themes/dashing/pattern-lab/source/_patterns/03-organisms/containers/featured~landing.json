@@ -1,0 +1,19 @@
+{
+  "attributes": {
+    "Attribute()": {
+      "class": [
+        "featured-region",
+        "region",
+        "featured-region-landing",
+        "text-center"
+      ]
+    }
+  },
+  "content": {
+    "join()": [
+      "atoms-h1",
+      "atoms-p",
+      "molecules-site-menu-pills"
+    ]
+  }
+}
